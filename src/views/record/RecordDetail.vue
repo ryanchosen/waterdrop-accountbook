@@ -4,7 +4,7 @@
       <nav-bar></nav-bar>
     </template>
     <template v-slot:header>
-      <top-bar class="detail-top-bar">水滴记账</top-bar>
+      <top-bar class="detail-top-bar">点滴记账</top-bar>
       <div class="general">
         <div class="income">
           <span>{{ getRecordSumByMoneyType(selectedRecords, 'income') }}</span>

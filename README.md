@@ -1,10 +1,10 @@
 # 点滴记账本
-- 本仓库为源文件仓库， 另外还存在一个用于`dist`与`预览项目` 的仓库
-- 我把项目打包生成的 `dist文件` 单独放置到 [demo仓库](https://github.com/ryanchosen/diandi-financials-demo) 中
+![waterdrop.png](https://i.loli.net/2021/01/18/LslSMn1gNjtwZRh.png)
 ## 预览地址
-- ![二维码.png](https://i.loli.net/2021/01/07/sQbKLUkRZnDo2F4.png)
-- [在线预览地址](http://ryansu.gitee.io/diandi-personal-financials)
-## 技术总结
+![二维码.png](https://i.loli.net/2021/01/18/ZTYMUiKAgDknhHQ.png)
+
+###[在线预览地址](http://ryansu.gitee.io/waterdrop-account-book)
+## 技术栈
 ## 本地打包 预览生产环境结果
 - 每次对源文件修改之后, 提交
 - 把vue.config.js中的以下三行关于 publicPath 注释掉
