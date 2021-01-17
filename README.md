@@ -5,6 +5,11 @@
 
 ###[在线预览地址](http://ryansu.gitee.io/waterdrop-account-book)
 ## 技术栈
+Vue + VueRouter + Vuex + TypeScript + Sass
+## 功能介绍
+- 账目记录添加 / 编辑 / 删除 / 查看明细（包括数目，收入/支出，分类，日期）
+- 账目年月趋势图表及分类占比
+- 分类添加 / 编辑 / 删除
 ## 本地打包 预览生产环境结果
 - 每次对源文件修改之后, 提交
 - 把vue.config.js中的以下三行关于 publicPath 注释掉
