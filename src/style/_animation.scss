@@ -1,0 +1,44 @@
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 300ms;
+}
+
+$map: (
+  top: "0, -100%",
+  left: "-100%, 0",
+  right: "100%, 0",
+  bottom: "0, 100%"
+);
+
+@each $direction, $translate in $map {
+  .slide-from-#{$direction}-enter,
+  .slide-from-#{$direction}-leave-to {
+    transform: translate(#{$translate});
+  }
+  .slide-from-#{$direction}-enter-active,
+  .slide-from-#{$direction}-leave-active {
+    transition: transform 300ms;
+  }
+}
+@each $direction, $translate in $map {
+  .router-slide-from-#{$direction}-enter {
+    opacity: 0;
+    transform: translate(#{$translate});
+  }
+  .router-slide-from-#{$direction}-leave-to {
+    opacity: 0;
+  }
+  .router-slide-from-#{$direction}-enter-active {
+    opacity: 1;
+    transition: transform 300ms;
+  }
+  .router-slide-from-#{$direction}-leave-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+}
