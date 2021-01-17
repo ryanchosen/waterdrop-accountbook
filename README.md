@@ -1,5 +1,5 @@
 # 点滴记账本
-![waterdrop.png](https://i.loli.net/2021/01/18/LslSMn1gNjtwZRh.png)
+![waterdrop.png](https://i.loli.net/2021/01/18/ATqUjL98hWbJ6oX.png)
 ## 预览地址
 ![二维码.png](https://i.loli.net/2021/01/18/ZTYMUiKAgDknhHQ.png)
 
