@@ -49,7 +49,7 @@ onLoadingChanged(newValue: string) {
 }
 ```
 
-## 本地打包 预览生产环境结果
+## 打包 & 预览
 - 每次对源文件修改之后, 提交
 - 把vue.config.js中的以下三行关于 publicPath 注释掉
 ```
